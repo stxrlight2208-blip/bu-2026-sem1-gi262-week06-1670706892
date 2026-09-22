@@ -48,7 +48,7 @@ namespace MidtermExam.Prob03
         /// <param name="targetPlayer">ผู้เล่นที่ต้องการย้ายตำแหน่งในคิว</param>
         /// <param name="afterPlayer">ผู้เล่นตำแหน่งอ้างอิง ที่จะนำ targetPlayer ไปวางต่อท้าย</param>
         /// <returns>คืนค่า true หากทำการย้ายสำเร็จ หรือ false หากไม่สามารถย้ายได้ (เช่น null, ไม่อยู่ในคิว, ผู้เล่นคนเดียวกัน)</returns>
-        public bool SwapQueue(LinkedList<Player> turnQueue, Player targetPlayer, Player afterPlayer)
+        public bool SwapQueue(LinkedList<Player> turnQueue, Player afterPlayer, Player targetPlayer)
         {
             // TODO: ให้นักศึกษา Implement การจัดการสลับลำดับของ Node ใน LinkedList<Player>
             return false;
