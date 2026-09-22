@@ -4,6 +4,10 @@ namespace MidtermExam.Prob01
 {
     public class Character
     {
+        string characterName;
+        float moveSpeed;
+        int level;
+
         // TODO: Implement inheritance, fields and methods according to Class Diagram
     }
 }
