@@ -4,9 +4,13 @@ namespace MidtermExam.Prob01
 {
     public class Character
     {
-        string characterName;
-        float moveSpeed;
-        int level;
+        public string characterName;
+        protected float moveSpeed;
+        private int level;
+
+
+        public virtual void Attack(GameEntity target);
+        protected virtual void LevelUp();
 
         // TODO: Implement inheritance, fields and methods according to Class Diagram
     }
